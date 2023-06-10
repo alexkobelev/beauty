@@ -162,8 +162,134 @@
   cursor: pointer;
 }
 
-.banner__button:hover,
-.banner__button:active {
+.banner__button:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+/* SECTION SPECIAL OFFERS */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 19px 30px;
+  padding-top: 60px;
+  padding-bottom: 133px;
+}
+
+.grid__title {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  display: flex;
+  align-items: center;
+}
+
+.special-offers__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.grid__image {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 30px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.card__image {
+  max-width: 125px;
+}
+
+.card__price {
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.card__button {
+  border: 2px solid #66c05d;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #66c05d;
+  text-decoration: none;
+  padding: 6px 41px;
+  transition: all 0.3s;
+}
+
+.card__button:hover {
+  cursor: pointer;
+  color: #333;
+  background-color: #fff;
+}
+
+.info-block {
+  color: #fff;
+  background-color: #66c05d;
+  padding: 34px 41px;
+}
+
+.subscription {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.subscription__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 22px;
+}
+
+.info-block__title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.subscription__email {
+  font-size: 14px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 9px 15px;
+  width: 100%;
+  max-width: 225px;
+}
+
+.store-location {
+  grid-column: 3/5;
+  grid-row: 3/4;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 22px;
+}
+
+.store-location__button {
+  border: 2px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 8px 27px;
+  transition: all 0.3s;
+  font-size: 14px;
+}
+
+.card__button:hover {
+  cursor: pointer;
   color: #333;
   background-color: #fff;
 }
