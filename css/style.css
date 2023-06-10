@@ -288,8 +288,75 @@
   font-size: 14px;
 }
 
-.card__button:hover {
+.store-location__button:hover {
   cursor: pointer;
   color: #333;
   background-color: #fff;
+}
+
+/* FOOTER */
+
+.footer__background_white {
+  background-color: #fff;
+}
+
+.footer__contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-media__item {
+  list-style: none;
+}
+
+.social-media__icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #66c05d;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.social-media__icon:hover {
+  background-color: rgb(155 216 156 / 0.1);
+}
+
+.social-media__icon_youtube {
+  background-image: url(../img/youtube.svg);
+}
+
+.social-media__icon_vk {
+  background-image: url(../img/vk.svg);
+}
+
+.social-media__icon_facebook {
+  background-image: url(../img/fb.svg);
+}
+.social-media__icon_instagram {
+  background-image: url(../img/instagram.svg);
+}
+
+.footer__politics {
+  display: flex;
+  justify-content: space-between;
+  color: #828282;
+  font-size: 12px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.footer__confidential {
+  text-decoration: none;
+  color: #828282;
 }
